@@ -11,28 +11,28 @@ This project tracks real-time cryptocurrency market data (e.g., BTCUSDT) using B
 ## 📁 Project Structure
 
 Python-market-tracker/
-├── tracker/
-│ ├── main.py ← Main script (runs every 5 mins)
-│ ├── fetch_data.py ← Fetches data from Binance API
-│ ├── db_manager.py ← Handles database connection
-│ ├── logger.py ← Logs activity to log file
-│ └── ...other modules
-│
-├── data/
-│ └── market_data.db ← SQLite database storing price and volume
-│
-├── logs/
-│ └── daily_log.txt ← Log file (auto-generated)
-│
-├── frontend/
-│ ├── app.py ← Flask app to show dashboard
-│ ├── templates/
-│ │ └── dashboard.html ← HTML layout for dashboard
-│ └── static/
-│ └── style.css ← Styling
-│
-├── requirements.txt ← All dependencies
-└── README.md ← You're here!
+├── tracker/  
+│ ├── main.py ← Main script (runs every 5 mins)  
+│ ├── fetch_data.py ← Fetches data from Binance API  
+│ ├── db_manager.py ← Handles database connection  
+│ ├── logger.py ← Logs activity to log file  
+│ └── ...other modules  
+│  
+├── data/  
+│ └── market_data.db ← SQLite database storing price and volume  
+│  
+├── logs/  
+│ └── daily_log.txt ← Log file (auto-generated)  
+│  
+├── frontend/  
+│ ├── app.py ← Flask app to show dashboard  
+│ ├── templates/  
+│ │ └── dashboard.html ← HTML layout for dashboard  
+│ └── static/  
+│ └── style.css ← Styling  
+│  
+├── requirements.txt ← All dependencies  
+└── README.md ← You're here!  
 
 
 ---
@@ -76,3 +76,13 @@ pip install -r requirements.txt
   python app.py
 ```
   Then open: http://127.0.0.1:5000
+
+## 🧪 Example Output
+
+  [DATA] 2025-07-04T11:12:11 | BTCUSDT | Price: 109144.9 | Volume: 12574.08991
+
+##  🧾 License
+This project is licensed under the MIT License.
+
+
+
